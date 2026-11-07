@@ -89,6 +89,8 @@ h1, h2, h3 { color: var(--heading); line-height: 1.25; }
   max-width: var(--maxw);
   margin-inline: auto;
   padding: .85rem 1.25rem;
+  color: var(--accent);
+
 }
 
 .brand {
@@ -108,11 +110,11 @@ h1, h2, h3 { color: var(--heading); line-height: 1.25; }
   padding: 0;
 }
 .nav-menu a {
-  color: var(--text-dim);
+  color: #ffffff;
   font-weight: 500;
   font-size: .95rem;
 }
-.nav-menu a:hover { color: var(--heading); text-decoration: none; }
+.nav-menu a:hover { color: var(--accent); text-decoration: none; }
 
 .nav-toggle {
   display: none;
